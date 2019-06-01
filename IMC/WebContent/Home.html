@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link href="imc.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+	<h1 class="Tittle">Calculo de imc</h1>
+
+
+	
+
+		<div class="oi" id="erro"></div>
+
+		<div class="caixa">
+
+			<div>
+				<label class="label1" for="altura">Altura</label> <input type="text"
+					id="altura" name="altura" placeholder="Digite a altura"
+					class="input1" onblur="validarNumero(this)" />
+			</div>
+
+			<div>
+				<label class="label2" for="peso">Pesso</label> <input type="text"
+					name="peso" id="peso" placeholder="Digite o peso" class="input2" />
+			</div>
+
+
+			<button class="botao" onclick="calcularImc()">Calcular</button>
+
+			<br />
+			<p class="resultado" id="resp"></p>
+
+		</div>
+
+
+
+	<h2 class="title2">Tabela do IMC</h2>
+
+	<img class="img" alt="imc" src="img/imc.jpg">
+
+
+
+
+	<script type="text/javascript" src="java.js"></script>
+</body>
+</html>

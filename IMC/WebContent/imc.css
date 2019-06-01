@@ -1,0 +1,57 @@
+body {
+	background-color: black;
+}
+
+.Tittle {
+	color: white;
+}
+
+.title2{
+	color: white;
+	margin-left: 400px;
+	margin-bottom: 10px;
+}
+
+
+.label1 {
+	color: white;
+	margin-right: 20px;
+}
+
+.label2 {
+	color: white;
+	margin-right: 20px;
+}
+
+.input1 {
+	margin-left: 0px;
+	font-weight: bold;
+}
+
+.input2 {
+	margin-left:5px;
+	font-weight: bold;
+}
+
+.caixa {
+	background-color: blue;
+	border-style: dotted;
+	margin-right: 730px;
+}
+
+.botao {
+	background-color: #4CAF50;
+	border-radius: 50%;
+}
+
+.resultado {
+	color: white;
+}
+
+.img{
+	margin-top: 0px;
+	margin-left: 50px;
+}
+.oi{
+	color: white;
+}
